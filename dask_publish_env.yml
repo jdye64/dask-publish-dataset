@@ -1,0 +1,10 @@
+name: dask_publish
+channels:
+  - rapidsai
+  - nvidia
+  - rapidsai-nightly
+  - conda-forge
+  - defaults
+dependencies:
+  - cudf=0.14.*
+  - dask-cuda=0.14.*
