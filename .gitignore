@@ -1,2 +1,5 @@
 storage
 dask-worker-space
+global.lock
+purge.lock
+*.dirlock

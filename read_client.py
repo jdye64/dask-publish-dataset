@@ -1,11 +1,9 @@
-from dask_cuda import LocalCUDACluster
 from distributed import Client
 import cudf
 import time
 
 if __name__ == '__main__':
-    cluster = LocalCUDACluster()
-    client = Client(cluster)
+    client = Client('localhost:8786')
     print(client)
 
     # Create a simple dataframe
