@@ -7,4 +7,3 @@
 
 After running you can see that second Python process was able to view the contents that were
 published by the first python process.# dask-publish-dataset
-# dask-publish-dataset
