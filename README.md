@@ -6,4 +6,4 @@
 4. Start a python process to read the published ddf ```python read_client.py```
 
 After running you can see that second Python process was able to view the contents that were
-published by the first python process.# dask-publish-dataset
+published by the first python process
